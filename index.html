@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Art Maker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pixel Art Maker</h1>
+    <div class="color-palette">
+      <center>
+        <input type="color" id="color-picker"><br><br>
+        <button id="clear-btn">Clear</button>
+      </center>
+    </div>
+    
+    <div class="actions">
+      <button id="download-btn">Descargar</button>
+    </div>
+  </div>
+  <div class="canvas-container">
+    <table id="pixel-canvas"></table>
+</div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
